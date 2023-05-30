@@ -1,0 +1,21 @@
+acceptance criteria: null
+active: true
+approval date: null
+cenelec phase: null
+derived: false
+document type: null
+eulynx baseline set: null
+header: |
+  Version history
+importance: null
+level: 1.1
+links: []
+normative: true
+ref: ''
+reqtyp: null
+reviewed: null
+safety relevance: null
+text: |
+  Wie macht man eine Tabelle? <table> <tr> <th>version number</th> <th>date</th> <th>author</th> <th>model version</th> <th>generic profile version</th> <th>Generic interface and subsystem requirements version</th> <th>review</th> <th>changes</th> </tr> <tr> <td>3.0 (0.A)</td> <td>12.12.2018</td> <td>Jorge Block</td> <td>15.1.34</td> <td>33</td> <td>3.0 (0.A)</td> <td>CCB</td> <td>EUIO-309, EUIO-310, EUIO-311, EUIO-312, EUIO-313, EUIO-315, EUIO-316 </td> <tr> </tr> <tr> <td>3.1 (0.A)</td> <td>09.04.2020</td> <td>Marie Gehrmann</td> <td>15.1.34</td> <td>33</td> <td>3.0 (0.A)</td> <td>-</td> <td>EUIO-319, EUIO-321, EUIO-325, EUIO-326</td> </tr> </table>
+verificationmethod: null
+version: null

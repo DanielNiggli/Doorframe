@@ -1,0 +1,21 @@
+acceptance criteria: null
+active: true
+approval date: null
+cenelec phase: null
+derived: false
+document type: null
+eulynx baseline set: null
+header: |
+  Subsystem Generic IO - General Infos and Assumptions
+importance: null
+level: 3.1
+links: []
+normative: true
+ref: ''
+reqtyp: null
+reviewed: null
+safety relevance: null
+text: |
+  Purpose of the Subsystem - Generic IO is to connect one or more elements to the Subsystem - Electronic Interlocking. These elements are identified as Adjacent IO Systems. The commands from Subsystem - Electronic Interlocking are processed and the current statuses are transmitted to the Subsystem - Electronic Interlocking, with the use of binary input and output information. The task of Subsystem - Generic IO is to ensure the controlling and reporting the status of the Adjacent IO Systems by Subsystem - Electronic Interlocking. ...
+verificationmethod: null
+version: null

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head><title>Doorstop</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="assets/doorstop/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/doorstop/general.css" />
+  <link type="text/css" rel="stylesheet" href="assets/doorstop/sidebar.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" ></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+  </script>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2 hidden-sm hidden-xs">
+          <nav id="TOC" class="nav nav-stacked fixed sidebar">
+              <h3>Table of Contents</h3>
+<pre><code>* [0.1 Requirements specification for subsystem Generic IO](#SYS017)
+* [0.2 Test Header](#SYS018)
+</code></pre>
+<ul>
+<li><a href="#SYS001">1.0 Introduction</a><ul>
+<li><a href="#SYS002">1.1 Release information</a></li>
+<li><a href="#SYS003">1.1 Version history</a></li>
+<li><a href="#SYS004">1.2 Purpose, Application standards, ...</a></li>
+</ul>
+</li>
+<li><a href="#SYS005">2.0 Conditions of use</a></li>
+<li><a href="#SYS006">3.0 Functional requirements specification</a><ul>
+<li><a href="#SYS007">3.1 Subsystem Generic IO - General Infos and Assumptions</a></li>
+<li><a href="#SYS008">3.2 Subsystem Generic IO - Logical Viewpoint</a><ul>
+<li><a href="#SYS009">3.2.1 Subsystem Generic IO - Logical Context</a></li>
+</ul>
+</li>
+<li><a href="#SYS010">3.3 Subsystem Generic IO - Functional Viewpoint</a><ul>
+<li><a href="#SYS011">3.3.1 Subsystem Generic IO - Logical Context</a></li>
+<li><a href="#SYS012">3.3.1 Con_t_Activation_Delay</a></li>
+<li><a href="#SYS013">3.3.1 Con_t_Message_Delay_Time</a></li>
+<li><a href="#SYS014">3.3.1 Con_tmax_Switching_Period</a></li>
+<li><a href="#SYS015">3.3.2 Subsystem Generic IO - Functional Context</a></li>
+<li><a href="#SYS016">3.3.3 Test Header</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+          </nav>
+      </div>
+      <div class="col-lg-8" id="main">
+        <h2 id="SYS017">0.1 Requirements specification for subsystem Generic IO <small>SYS017</small></h2>
+<p>eis
+zwöi
+drü</p>
+<h2 id="SYS018">0.2 Test Header <small>SYS018</small></h2>
+<p>Das ist ein Test für den Header</p>
+<h1 id="SYS001">1.0 Introduction <small>SYS001</small></h1>
+<p>Einleitungs Text
+bla bla
+bla</p>
+<h2 id="SYS002">1.1 Release information <small>SYS002</small></h2>
+<p>[Eu.Doc.45]</p>
+<p>Requirements specification for subsystem Generic IO</p>
+<h2 id="SYS003">1.1 Version history <small>SYS003</small></h2>
+<p>Wie macht man eine Tabelle? <table> <tr> <th>version number</th> <th>date</th> <th>author</th> <th>model version</th> <th>generic profile version</th> <th>Generic interface and subsystem requirements version</th> <th>review</th> <th>changes</th> </tr> <tr> <td>3.0 (0.A)</td> <td>12.12.2018</td> <td>Jorge Block</td> <td>15.1.34</td> <td>33</td> <td>3.0 (0.A)</td> <td>CCB</td> <td>EUIO-309, EUIO-310, EUIO-311, EUIO-312, EUIO-313, EUIO-315, EUIO-316 </td> <tr> </tr> <tr> <td>3.1 (0.A)</td> <td>09.04.2020</td> <td>Marie Gehrmann</td> <td>15.1.34</td> <td>33</td> <td>3.0 (0.A)</td> <td>-</td> <td>EUIO-319, EUIO-321, EUIO-325, EUIO-326</td> </tr> </table></p>
+<h2 id="SYS004">1.2 Purpose, Application standards, ... <small>SYS004</small></h2>
+<p>Platzhalter für Kapitel 1.3-1.9</p>
+<h1 id="SYS005">2.0 Conditions of use <small>SYS005</small></h1>
+<p>Platzhalter für Kapitel 2</p>
+<h1 id="SYS006">3.0 Functional requirements specification <small>SYS006</small></h1>
+<h2 id="SYS007">3.1 Subsystem Generic IO - General Infos and Assumptions <small>SYS007</small></h2>
+<p>Purpose of the Subsystem - Generic IO is to connect one or more elements to the Subsystem - Electronic Interlocking. These elements are identified as Adjacent IO Systems. The commands from Subsystem - Electronic Interlocking are processed and the current statuses are transmitted to the Subsystem - Electronic Interlocking, with the use of binary input and output information. The task of Subsystem - Generic IO is to ensure the controlling and reporting the status of the Adjacent IO Systems by Subsystem - Electronic Interlocking. ...</p>
+<h2 id="SYS008">3.2 Subsystem Generic IO - Logical Viewpoint <small>SYS008</small></h2>
+<h3 id="SYS009">3.2.1 Subsystem Generic IO - Logical Context <small>SYS009</small></h3>
+<p>[Package] Subsystem Generic IO - Logical Context [Logical Viewpoint - Subsystem Definition] <img src="..\Referenzen\Bilder\Subsystem - Generic IO.png"> <img desc="Blabla"></p>
+<h2 id="SYS010">3.3 Subsystem Generic IO - Functional Viewpoint <small>SYS010</small></h2>
+<h3 id="SYS011">3.3.1 Subsystem Generic IO - Logical Context <small>SYS011</small></h3>
+<h3 id="SYS012">3.3.1 Con_t_Activation_Delay <small>SYS012</small></h3>
+<p>The activation delay period Con_t_Activation_Delay shall be configurable for each Output Channel, both, for switching-on and switching-off, for special applications. Resolution of configuration: in milliseconds. Configurable range: Between 0 and 2047 ms</p>
+<blockquote>
+<p><code>Referenzen/Dokumente/20220516 Requirement specification for subsystem Generic IO Eu.Doc.45 v4.0 (0.A).pdf</code></p>
+</blockquote>
+<p><em>Child links:</em> <a href="SRS.html#SRS001">SRS001 SRS001 child from SYS012</a></p>
+<h3 id="SYS013">3.3.1 Con_t_Message_Delay_Time <small>SYS013</small></h3>
+<p>The Message delay time Con_t_Message_Delay_Time shall be configurable for each Input Channel, both, for report of switching-on and switching-off, for special applications. The Message delay time is not relevant in case of disturbances or revocation of disturbances. Resolution of configuration: in milliseconds. Configurable range: Between 0 and 2047 ms</p>
+<h3 id="SYS014">3.3.1 Con_tmax_Switching_Period <small>SYS014</small></h3>
+<p>Con_tmax_Switching_Period is a period, which needs to be configured individually for each Input Channel, which is monitored Antivalent or Equivalent. Within this period, the violation of antivalence or equivalence condition is tolerated. Resolution of configuration: in milliseconds. Configurable range: Between 0 and 255 ms</p>
+<h3 id="SYS015">3.3.2 Subsystem Generic IO - Functional Context <small>SYS015</small></h3>
+<p>[Package] Subsystem Generic IO - Functional Context [Functional Viewpoint - Subsystem Definition - Initialisation] <img src="..\Referenzen\Bilder\Subsystem Generic IO - Functional Context.png"> The generic UseCases SCI-XX EfeS IFUC1.1: Establish PDI connection and SCI-XX EfeS IFUC1.2: Close PDI connection are specified in Eu.Doc.119. The generic UseCases SMI-XX IFUC 1.1: Establish SMI connection, SMI-XX IFUC 1.2: Synchronous loading and activation of data, SMI-XX IFUC 1.3: Asynchronous preloading of data, SMI-XX IFUC 1.4: Reset EfeS and SMI-XX IFUC 1.5: Initiate maintenance are specified in Eu.Doc.120.</p>
+<h3 id="SYS016">3.3.3 Test Header <small>SYS016</small></h3>
+<p>Test test test test test</p>
+      </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/doorstop/jquery.min.js"></script>
+<script src="assets/doorstop/bootstrap.min.js"></script>
+<script>
+    $(function() {
+        $("table").addClass("table");
+        $("nav ul").addClass("nav nav-stacked");
+        $("nav").affix();
+        $('body').scrollspy({
+          target: '.sidebar'
+        });
+        $("#main a").attr("target", "parent");
+
+  $(window).on('hashchange', function() {
+    $(window).scrollTop($(location.hash.toLowerCase()).offset().top);});
+  });
+</script>
+</body>
+</html>
+

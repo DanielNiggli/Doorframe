@@ -1,0 +1,17 @@
+links:
+- SYS012: null
+Acceptance criteria: Non
+Importance: CAN, MUST
+ReqTyp: Functional, Non- Functional, Constraint, Architecture
+Safety relevance: Yes, No
+VerificationMethod: Test, Review, Analysis
+active: true
+derived: false
+header: |
+  SRS001 child from SYS012
+level: 1.0
+normative: true
+ref: ''
+reviewed: null
+text: |
+  bla bla bla bla

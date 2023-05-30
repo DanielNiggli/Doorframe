@@ -1,0 +1,21 @@
+acceptance criteria: Non
+active: true
+approval date: null
+cenelec phase: null
+derived: false
+document type: null
+eulynx baseline set: null
+header: |
+  Con_tmax_Switching_Period
+importance: CAN, MUST
+level: 3.3.1
+links: []
+normative: true
+ref: ''
+reqtyp: Functional, Non- Functional, Constraint, Architecture
+reviewed: null
+safety relevance: Yes, No
+text: |
+  Con_tmax_Switching_Period is a period, which needs to be configured individually for each Input Channel, which is monitored Antivalent or Equivalent. Within this period, the violation of antivalence or equivalence condition is tolerated. Resolution of configuration: in milliseconds. Configurable range: Between 0 and 255 ms
+verificationmethod: Test, Review, Analysis
+version: null

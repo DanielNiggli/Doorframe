@@ -1,0 +1,24 @@
+settings:
+  digits: 3 #no. of digits after prefix
+  parent: SYS #parent document
+  prefix: SRS
+  sep: ''
+attributes:
+  defaults:
+    Safety relevance: "Yes, No"
+    ReqTyp: "Functional, Non- Functional, Constraint, Architecture"
+    Importance: "CAN, MUST" #Options: CAN; MUST
+    VerificationMethod: "Test, Review, Analysis"
+    Acceptance criteria: "Non"
+  reviewed: #Extended reviewed attributes
+    - Safety relevance
+    - ReqTyp
+    - Importance
+    - VerificationMethod
+    - Acceptance criteria
+  publish: #Publishing extended attributes
+    - ReqTyp
+    - Importance
+    - VerificationMethod
+    - Acceptance criteria
+    - Safety relevance

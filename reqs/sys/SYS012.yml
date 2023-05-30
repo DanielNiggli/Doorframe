@@ -1,0 +1,21 @@
+acceptance criteria: Non
+active: true
+approval date: null
+cenelec phase: null
+derived: false
+document type: null
+eulynx baseline set: null
+header: |
+  Con_t_Activation_Delay
+importance: CAN, MUST
+level: 3.3.1
+links: []
+normative: true
+ref: 20220516 Requirement specification for subsystem Generic IO Eu.Doc.45 v4.0 (0.A).pdf
+reqtyp: Functional, Non- Functional, Constraint, Architecture
+reviewed: null
+safety relevance: Yes, No
+text: |
+  The activation delay period Con_t_Activation_Delay shall be configurable for each Output Channel, both, for switching-on and switching-off, for special applications. Resolution of configuration: in milliseconds. Configurable range: Between 0 and 2047 ms
+verificationmethod: Test, Review, Analysis
+version: null

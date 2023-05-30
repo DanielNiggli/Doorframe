@@ -1,0 +1,21 @@
+acceptance criteria: null
+active: true
+approval date: null
+cenelec phase: null
+derived: false
+document type: Header, Text, REQ
+eulynx baseline set: null
+header: |
+  Test Header
+importance: null
+level: 0.2
+links: []
+normative: true
+ref: ''
+reqtyp: null
+reviewed: null
+safety relevance: null
+text: |
+  Das ist ein Test für den Header
+verificationmethod: null
+version: null

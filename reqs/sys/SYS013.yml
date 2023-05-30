@@ -1,0 +1,21 @@
+acceptance criteria: Non
+active: true
+approval date: null
+cenelec phase: null
+derived: false
+document type: null
+eulynx baseline set: null
+header: |
+  Con_t_Message_Delay_Time
+importance: CAN, MUST
+level: 3.3.1
+links: []
+normative: true
+ref: ''
+reqtyp: Functional, Non- Functional, Constraint, Architecture
+reviewed: null
+safety relevance: Yes, No
+text: |
+  The Message delay time Con_t_Message_Delay_Time shall be configurable for each Input Channel, both, for report of switching-on and switching-off, for special applications. The Message delay time is not relevant in case of disturbances or revocation of disturbances. Resolution of configuration: in milliseconds. Configurable range: Between 0 and 2047 ms
+verificationmethod: Test, Review, Analysis
+version: null

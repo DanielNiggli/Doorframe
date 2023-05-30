@@ -1,0 +1,25 @@
+settings:
+  digits: 3
+  prefix: SYS
+  sep: ''
+attributes:
+  defaults:
+    Safety relevance: "Yes, No"
+    ReqTyp: "Functional, Non- Functional, Constraint, Architecture"
+    Importance: "CAN, MUST" #Options: CAN; MUST
+    VerificationMethod: "Test, Review, Analysis"
+    Acceptance criteria: "Non"
+    Document Type: "Header, Text, REQ"
+  reviewed: #Extended reviewed attributes
+    - Safety relevance
+    - ReqTyp
+    - Importance
+    - VerificationMethod
+    - Acceptance criteria
+    - Document Type
+  publish: #Publishing extended attributes
+    - ReqTyp
+    - Importance
+    - VerificationMethod
+    - Acceptance criteria
+    - Safety relevance

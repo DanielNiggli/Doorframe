@@ -1,0 +1,23 @@
+acceptance criteria: null
+active: true
+approval date: 25.04.2022
+cenelec phase: 4
+derived: false
+document type: null
+eulynx baseline set: 4
+header: |
+  Release information
+importance: null
+level: 1.1
+links: []
+normative: true
+ref: ''
+reqtyp: null
+reviewed: 2Jjwjvo8v8ljDeGDUMHHPJVfPxdpR_ItLS-1lhkaDlQ=
+safety relevance: null
+text: |
+  [Eu.Doc.45]
+
+  Requirements specification for subsystem Generic IO
+verificationmethod: null
+version: 4.0 (0.A)
